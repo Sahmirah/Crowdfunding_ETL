@@ -7,13 +7,13 @@ Create Table campaign (
 	pledged int NOT NULL,
 	outcome VARCHAR(30) NOT NULL,
 	backers_count int NOT NULL,
-    country varchar(10) NOT NULL,
-    currency varchar(10) NOT NULL,
-    launch_date date NOT NULL,
-    end_date date NOT NULL,
-    category_id varchar(10) NOT NULL,
-    subcategory_id varchar(10) NOT NULL,
-    CONSTRAINT pk_campaign PRIMARY KEY (cf_id)
+        country varchar(10) NOT NULL,
+    	currency varchar(10) NOT NULL,
+    	launch_date date NOT NULL,
+    	end_date date NOT NULL,
+    	category_id varchar(10) NOT NULL,
+    	subcategory_id varchar(10) NOT NULL,
+    	CONSTRAINT pk_campaign PRIMARY KEY (cf_id)
 ); 
 
 CREATE Table category (
